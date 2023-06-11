@@ -1,0 +1,466 @@
+/* CSS for all element */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+/* Header */
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../Photos/mainBackground.png");
+    background-position: center;
+    position: relative;
+    height: 125vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Navigation Bar */
+.navbar{
+    padding: 25px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30vw;
+
+}
+
+/* menu list */
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 2px;
+    gap: 52px;
+    margin-right: 80px;
+}
+.menu li {
+    list-style: none;
+}
+.menu li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.menu li a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Logo image */
+.logo{
+    margin-left: 30px;
+    width: 120px;
+    cursor: pointer;
+}
+
+/* Horizontal line */
+hr{
+    margin: 0 100px;   
+}
+/* Main section */
+.main{
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+/* Main Heading */
+.mainHeading{
+    font-size: 75px;
+    line-height: 100px;
+    color: #ffffff;
+}
+/* Main paragraph */
+.mainParagraph{
+    margin-top: 30px;
+    font-size: 21px;
+    color: #f5f5f5;
+}
+
+/* Learn More button */
+.learnMore-button{
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 30px;
+    background-color: rgb(136, 0, 255);
+    border: none;
+    border-radius: 18px;
+    margin-top: 25px;
+}
+.learnMore-button:hover{
+    background-color: rgb(94, 0, 176);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* Logo Name list */
+.logoName{
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin: 20px 40px;
+    padding: 70px 20px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+    position: relative;
+    top: -15vh;
+}
+
+/* Logo Name image */
+.logoName img{
+    width: 155px;
+}
+
+/* Main Body */
+main{
+    margin-top: -20px;
+    background-color: #f6f6f6;
+    padding: 20px 0;
+}
+
+/* Modern Estate section */
+.modernHeading{
+    font-size: 70px;
+    text-align: center;
+}
+
+/* Grid for estate image */
+.cardGrid{
+    display: grid;
+    margin-top: 150px;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 400px 400px 400px;
+    row-gap: 90px;
+    column-gap: 90px;
+    justify-content: center;
+    align-items: center;
+}
+/* image in Grid */
+.card img{
+    width: 350px;
+    height: 400px;
+    border-radius: 20px;
+}
+/* Individual section of grid */
+.cardBlock{
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 27px 2px;
+    position: relative;
+    top: -9vh;
+}
+/* Text Block  */
+.textBlock h3{
+    font-size: 24px;
+}
+.textBlock p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+/* detail Button */
+.detail{
+    font-size: 16px;
+    color: #ffffff;
+    padding: 15px 35px;
+    border-radius: 25px;
+    background-color: rgb(121, 0, 235);
+    border: none;
+}
+.detail:hover{
+    color: #ffffff;
+    background-color: rgb(104, 3, 171);
+    cursor: pointer;
+}
+/* Separate card  */
+.card1{
+    margin-top: 0px;
+}
+.card2{
+    margin-top: 50px;
+}
+.card3{
+    margin-top: 100px;
+}
+.card4{
+    margin-top: 35vh;
+}
+.card5{
+    margin-top: 25vh;
+}
+.card6{
+    margin-top: 20vh;
+}
+.card7{
+    margin-top: 42vh;
+}
+.card8{
+    margin-top: 47vh;
+}
+.card9{
+    margin-top: 55vh;
+}
+
+/* Feature section 1 */
+.feature-1{
+    margin-top: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Feature image 1 */
+img[alt="featuresImage1"]{
+    width: 400px;
+    height: 405px;
+    border-radius: 55px;
+    z-index: 2;
+    position: relative;
+    bottom: 69vh;
+    left: 7vw;
+}
+/* Feature Background image 1 */
+img[alt="featureImageBg1"]{
+    width: 554px;
+}
+/* Feature section - 1 right side  */
+.f1-right{
+    width: 60vw;
+    margin-top: 35px;
+    margin-right: 5vw;
+}
+.f1-heading{
+    font-size: 62px;
+}
+.f1-paragraph{
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #525252;
+}
+/* Early Bird Button */
+.earlyBird{
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 12px 30px;
+    color: #ffffff;
+    background-color: rgb(136, 0, 255);
+    border: none;
+    border-radius: 25px;
+}
+.earlyBird:hover{
+    color: #ffffff;
+    background-color: rgb(106, 5, 169);
+    border: 1px solid #000000;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Feature section 2 */
+.feature-2{
+    margin-top: -40vh;
+    height: 655px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+/* Feature Image 2 */
+img[alt="featuresImage2"]{
+    width: 400px;
+    height: 405px;
+    border-radius: 55px;
+    z-index: 2;
+    position: relative;
+    bottom: 69vh;
+    left: 266px;
+}
+/* Feature Background 2 */
+img[alt="featureImageBg2"]{
+    width: 700px;
+    height: 460px;
+    position: relative;
+    right: -85px;
+}
+
+/* Feature section - 2 left side */
+.f2-left{
+    width: 60vw;
+    margin-top: 65px;
+    margin-left: 5vw;
+}
+.f2-heading{
+    font-size: 62px;
+}
+.f2-paragraph{
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #525252;
+}
+
+/* Newsletter section */
+.newsletter{
+    background-color: rgb(177, 9, 255);
+    border-radius: 55px;
+    margin: 30px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 10px 65px;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+.newsletter-Heading{
+    font-size: 65px;
+    text-align: center;
+}
+.newsletter-paragraph{
+    margin-top: 30px;
+    font-size: 19px;
+    text-align: center;
+}
+
+/* mail section */
+.mail-section{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+/* Mail Box */
+.mailBox{
+    padding: 10px 30px;
+    border-radius: 40px;
+    background-color: rgb(92, 0, 212);
+    
+}
+/* MailBox input */
+.mailBox input {
+    padding-left: 40px;
+    height: 35px;
+    border-radius: 30px;
+    width:300px;
+    outline: none;
+    border: transparent;
+    background-color: rgb(92, 0, 212);
+    color: #ffffff;
+    font-size: 18px;
+}
+.mailBox input::placeholder{
+    color: #ffffff;
+    text-align: center;
+}
+/* Mail logo */
+img[alt="mail"]{
+    position: relative;
+    left: -20vw;
+    top: 1vh;
+    width: 28px;
+    cursor: pointer;
+}
+
+/* Subsribe Button */
+.subscribe{
+    font-size: 19px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: none;
+    padding: 18px 45px;
+    color: rgb(151, 3, 249);
+}
+.subscribe:hover{
+    color: #ffffff;
+    background-color: rgb(240, 0, 0);
+    cursor: pointer;
+}
+
+
+/* Footer  */
+footer{
+    width: 100%;
+    margin-top: -20px;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 13vh 6vw;
+}
+
+/* Footer list section */
+.footer-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 140px;
+    align-items: flex-start;
+}
+/* Individual list */
+.list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.list{
+    font-size: 18px;
+}
+.list li a{
+    text-decoration: none;
+    color: #000000;
+}
+.list li a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.list-head {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Footer left side  */
+.company{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+/* Social list */
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+/* Social image */
+.social-link{
+    width: 35px;
+}
+
+.social-paragraph{
+    font-size: 22px;
+}
+/* logo image */
+.company img[alt="logo"]{
+    width: 150px;
+    cursor: pointer;
+}
